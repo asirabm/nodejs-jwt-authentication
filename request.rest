@@ -1,0 +1,21 @@
+GET http://localhost:4000/users
+Auth:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiYW5mYXMiLCJpYXQiOjE2Nzk0NjkxMTR9.WAVjTxyv89afi-AXWOtGzSk1aPlwjf1l-oPyZio0gWc
+
+
+###
+
+POST http://localhost:4000/user
+Content-Type: application/json
+
+{
+    "name":"anfas"
+}
+
+###
+
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "name":"anfas"
+}
